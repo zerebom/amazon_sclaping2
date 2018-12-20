@@ -5,6 +5,10 @@ class User:
         self.book=book
         self.book_star=book_star
         self.url=url
+
+    def to_tuple(self):
+        data=(self.id,self.name,self.book,self.book_star,self.url)
+        return(data)
     
 
 
