@@ -4,7 +4,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from bs4 import BeautifulSoup
-import re
 from User import User
 import re
 re._pattern_type = re.Pattern
